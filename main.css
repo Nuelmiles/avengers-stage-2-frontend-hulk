@@ -128,7 +128,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .hero__main {
@@ -854,18 +854,26 @@ body {
 /* About us section */
 
 .about-us {
-  text-align: center;
-  padding: 5rem;
 }
 
-.about-us .about_title h1 {
-  font-size: 40px;
+.about-us .about_title p {
+  font-size: 1.5em;
   font-weight: bold;
   color: #2c2c2c;
   position: static;
   margin-top: 70px;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.about-us .button {
+  margin: 0;
+  display: block;
+}
+
+.about-us button {
+  width: 300px;
+  max-width: 100%;
 }
 
 /* contact us section */
