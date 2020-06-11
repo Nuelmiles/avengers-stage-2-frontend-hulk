@@ -584,13 +584,11 @@ body {
   transition: 2s;
   margin-right: auto;
 }
-
 .ruby_img:hover {
   transition: 2s;
   -ms-transform: scale(0.9);
   transform: scale(0.9);
 }
-
 .diamond_img {
   width: 831px;
   height: 400px;
@@ -615,7 +613,6 @@ body {
   /* width:800px; */
   padding: 40px;
 }
-
 .diamond_content {
   text-align: right;
   /* width: 800px; */
@@ -673,7 +670,6 @@ body {
 .button a {
   color: #2c2c2c;
 }
-
 .button a:hover {
   transform: scaleY(1.1);
   transition: 2s;
@@ -794,7 +790,7 @@ body {
   border: none;
   outline: none;
   border-radius: 3px;
-  transition: all .3s;
+  transition: all 0.3s;
   font-weight: bold;
 }
 
@@ -812,7 +808,7 @@ body {
 }
 
 .btn--primary {
-  background: #D66439;
+  background: #d66439;
   color: #2c2c2c;
 }
 
@@ -832,7 +828,7 @@ body {
   border: 3px solid white;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .facilities_list ul {
     flex-direction: column;
     align-items: center;
@@ -855,7 +851,22 @@ body {
   }
 }
 
-/* End of facilities section */
+/* About us section */
+
+.about-us {
+  text-align: center;
+  padding: 5rem;
+}
+
+.about-us .about_title h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2c2c2c;
+  position: static;
+  margin-top: 70px;
+  font-style: normal;
+  text-transform: uppercase;
+}
 
 /* contact us section */
 
