@@ -1,0 +1,46 @@
+.gallery{
+    max-width:95%;
+    /* max-width:80%; */
+    height:100vh;
+    margin: 0 auto;
+  } 
+  .gname{
+    color:black;
+    font-size: 40px;
+  }
+  .gallery .service-list ul{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .gallery-image{
+    width:350px;
+    height:330px;;
+  }
+  .gallery .service-list ul li{
+    width:400px;
+  min-height:450px;
+  margin:5px 5px;
+  text-align: center;
+  }
+  .gname{
+    font-weight: 550;
+    color:rgb(65, 62, 62);
+  }
+  .gname-desc{
+    font-size:20px;
+  margin-top:-35px;
+  color:rgb(78, 77, 77);
+  font-weight: 500;
+  }
+  .arrow-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:#D66439
+  }
+  .arrow{
+    background: none;
+    border:0px;
+  }
