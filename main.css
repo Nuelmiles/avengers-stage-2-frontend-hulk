@@ -778,6 +778,13 @@ body {
 
 .browse {
   text-align: center;
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.browse button {
+  padding: 20px;
 }
 
 .button {
